@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int n,count=0;
+    printf("input number:");
+    scanf("%d",&n);
+    while(n>0){
+        if(n%2==1)
+      {  count++;
+    }
+        n=n/2;
+    }printf("Set bits=%d",count);
+    return 0;
+}
